@@ -1,0 +1,3918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="examples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/augusto/CG/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/augusto/CG/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/augusto/CG/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples">
+				<Option output="/home/augusto/CG/examples/cmake-build-debug/examples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/augusto/CG/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/augusto/CG/examples/animation/vart"/>
+					<Add directory="/home/augusto/CG/examples/animation/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/arrow/vart"/>
+					<Add directory="/home/augusto/CG/examples/arrow/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/joint-action/vart"/>
+					<Add directory="/home/augusto/CG/examples/joint-action/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/keyboard/vart"/>
+					<Add directory="/home/augusto/CG/examples/keyboard/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/objViewer/vart"/>
+					<Add directory="/home/augusto/CG/examples/objViewer/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/picking/vart"/>
+					<Add directory="/home/augusto/CG/examples/picking/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/textureExample/vart"/>
+					<Add directory="/home/augusto/CG/examples/textureExample/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/transform-action/vart"/>
+					<Add directory="/home/augusto/CG/examples/transform-action/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/vigilanceCamera"/>
+					<Add directory="/home/augusto/CG/examples/vigilanceCamera/vart"/>
+					<Add directory="/home/augusto/CG/examples/vigilanceCamera/vart/contrib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 examples"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/fast">
+				<Option output="/home/augusto/CG/examples/cmake-build-debug/examples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/augusto/CG/examples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/augusto/CG/examples/animation/vart"/>
+					<Add directory="/home/augusto/CG/examples/animation/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/arrow/vart"/>
+					<Add directory="/home/augusto/CG/examples/arrow/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/joint-action/vart"/>
+					<Add directory="/home/augusto/CG/examples/joint-action/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/keyboard/vart"/>
+					<Add directory="/home/augusto/CG/examples/keyboard/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/objViewer/vart"/>
+					<Add directory="/home/augusto/CG/examples/objViewer/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/picking/vart"/>
+					<Add directory="/home/augusto/CG/examples/picking/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/textureExample/vart"/>
+					<Add directory="/home/augusto/CG/examples/textureExample/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/transform-action/vart"/>
+					<Add directory="/home/augusto/CG/examples/transform-action/vart/contrib"/>
+					<Add directory="/home/augusto/CG/examples/vigilanceCamera"/>
+					<Add directory="/home/augusto/CG/examples/vigilanceCamera/vart"/>
+					<Add directory="/home/augusto/CG/examples/vigilanceCamera/vart/contrib"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 examples/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/augusto/CG/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/augusto/CG/examples/animation/main.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/action.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/addresslocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/arrow.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/baseaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/bezier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/biaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/boundingbox.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/box.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/callback.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/camera.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/collector.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/color.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/cone.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/contrib/human.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/contrib/mousecontrol.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/contrib/pnmexporter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/contrib/source/human.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/contrib/source/mousecontrol.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/contrib/source/pnmexporter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/contrib/source/viewerglutogl.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/contrib/viewerglutogl.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/curve.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/cylinder.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/descriptionlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/dmmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/dof.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/dofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/dot.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/file.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/graphicobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/hermiteinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/ikchain.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/interpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/joint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/jointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/jointmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/light.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/linearinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/material.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/memoryobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/mesh.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/meshobject.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/modifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/naturalinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/noisydofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/offsetmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/picknamelocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/point.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/point4d.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/pointlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/polyaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/polyline.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/rangesineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/refsystem.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/rotationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/scaleaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/scene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/scenenode.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/sgpath.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/shearaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/sineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/snlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/snoperator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/action.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/addresslocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/arrow.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/baseaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/bezier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/biaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/boundingbox.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/box.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/camera.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/color.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/cone.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/curve.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/cylinder.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/descriptionlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/dof.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/dofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/dot.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/file.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/graphicobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/hermiteinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/ikchain.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/joint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/jointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/jointmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/light.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/linearinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/material.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/memoryobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/mesh.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/meshobject.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/modifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/naturalinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/noisydofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/offsetmodifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/picknamelocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/point4d.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/pointlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/polyaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/polyline.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/rangesineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/refsystem.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/rotationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/scaleaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/scene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/scenenode.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/sgpath.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/shearaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/sineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/snlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/sphere.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/spotlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/texture.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/time.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/transform.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/transformaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/translationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/uniaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/xmlaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/xmlbase.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/xmljointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/xmlprinter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/source/xmlscene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/sphere.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/spotlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/texture.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/time.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/transform.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/transformaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/translationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/uniaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/vart.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/xmlaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/xmlbase.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/xmljointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/xmlprinter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/animation/vart/xmlscene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/main.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/action.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/addresslocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/arrow.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/baseaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/bezier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/biaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/boundingbox.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/box.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/callback.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/camera.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/collector.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/color.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/cone.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/contrib/human.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/contrib/mousecontrol.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/contrib/pnmexporter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/contrib/source/human.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/contrib/source/mousecontrol.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/contrib/source/pnmexporter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/contrib/source/viewerglutogl.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/contrib/viewerglutogl.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/curve.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/cylinder.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/descriptionlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/dmmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/dof.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/dofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/dot.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/file.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/graphicobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/hermiteinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/ikchain.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/interpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/joint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/jointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/jointmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/light.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/linearinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/material.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/memoryobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/mesh.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/meshobject.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/modifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/naturalinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/noisydofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/offsetmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/picknamelocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/point.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/point4d.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/pointlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/polyaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/polyline.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/rangesineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/refsystem.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/rotationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/scaleaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/scene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/scenenode.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/sgpath.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/shearaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/sineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/snlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/snoperator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/action.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/addresslocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/arrow.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/baseaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/bezier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/biaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/boundingbox.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/box.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/camera.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/color.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/cone.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/curve.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/cylinder.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/descriptionlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/dof.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/dofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/dot.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/file.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/graphicobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/hermiteinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/ikchain.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/joint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/jointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/jointmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/light.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/linearinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/material.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/memoryobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/mesh.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/meshobject.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/modifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/naturalinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/noisydofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/offsetmodifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/picknamelocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/point4d.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/pointlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/polyaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/polyline.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/rangesineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/refsystem.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/rotationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/scaleaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/scene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/scenenode.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/sgpath.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/shearaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/sineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/snlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/sphere.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/spotlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/texture.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/time.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/transform.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/transformaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/translationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/uniaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/xmlaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/xmlbase.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/xmljointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/xmlprinter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/source/xmlscene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/sphere.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/spotlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/texture.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/time.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/transform.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/transformaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/translationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/uniaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/vart.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/xmlaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/xmlbase.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/xmljointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/xmlprinter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/arrow/vart/xmlscene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/main.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/action.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/addresslocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/arrow.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/baseaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/bezier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/biaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/boundingbox.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/box.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/callback.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/camera.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/collector.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/color.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/cone.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/contrib/human.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/contrib/mousecontrol.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/contrib/pnmexporter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/contrib/source/human.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/contrib/source/mousecontrol.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/contrib/source/pnmexporter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/contrib/source/viewerglutogl.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/contrib/viewerglutogl.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/curve.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/cylinder.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/descriptionlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/dmmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/dof.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/dofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/dot.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/file.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/graphicobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/hermiteinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/ikchain.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/interpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/joint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/jointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/jointmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/light.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/linearinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/material.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/memoryobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/mesh.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/meshobject.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/modifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/naturalinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/noisydofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/offsetmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/picknamelocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/point.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/point4d.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/pointlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/polyaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/polyline.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/rangesineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/refsystem.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/rotationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/scaleaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/scene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/scenenode.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/sgpath.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/shearaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/sineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/snlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/snoperator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/action.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/addresslocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/arrow.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/baseaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/bezier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/biaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/boundingbox.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/box.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/camera.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/color.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/cone.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/curve.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/cylinder.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/descriptionlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/dof.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/dofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/dot.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/file.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/graphicobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/hermiteinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/ikchain.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/joint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/jointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/jointmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/light.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/linearinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/material.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/memoryobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/mesh.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/meshobject.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/modifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/naturalinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/noisydofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/offsetmodifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/picknamelocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/point4d.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/pointlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/polyaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/polyline.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/rangesineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/refsystem.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/rotationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/scaleaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/scene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/scenenode.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/sgpath.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/shearaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/sineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/snlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/sphere.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/spotlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/texture.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/time.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/transform.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/transformaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/translationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/uniaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/xmlaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/xmlbase.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/xmljointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/xmlprinter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/source/xmlscene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/sphere.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/spotlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/texture.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/time.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/transform.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/transformaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/translationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/uniaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/vart.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/xmlaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/xmlbase.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/xmljointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/xmlprinter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/joint-action/vart/xmlscene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/main.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/action.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/addresslocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/arrow.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/baseaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/bezier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/biaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/boundingbox.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/box.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/callback.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/camera.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/collector.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/color.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/cone.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/contrib/human.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/contrib/mousecontrol.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/contrib/pnmexporter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/contrib/source/human.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/contrib/source/mousecontrol.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/contrib/source/pnmexporter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/contrib/source/viewerglutogl.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/contrib/viewerglutogl.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/curve.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/cylinder.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/descriptionlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/dmmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/dof.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/dofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/dot.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/file.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/graphicobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/hermiteinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/ikchain.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/interpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/joint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/jointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/jointmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/light.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/linearinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/material.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/memoryobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/mesh.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/meshobject.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/modifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/naturalinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/noisydofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/offsetmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/picknamelocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/point.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/point4d.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/pointlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/polyaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/polyline.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/rangesineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/refsystem.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/rotationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/scaleaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/scene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/scenenode.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/sgpath.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/shearaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/sineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/snlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/snoperator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/action.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/addresslocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/arrow.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/baseaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/bezier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/biaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/boundingbox.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/box.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/camera.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/color.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/cone.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/curve.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/cylinder.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/descriptionlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/dof.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/dofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/dot.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/file.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/graphicobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/hermiteinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/ikchain.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/joint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/jointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/jointmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/light.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/linearinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/material.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/memoryobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/mesh.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/meshobject.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/modifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/naturalinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/noisydofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/offsetmodifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/picknamelocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/point4d.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/pointlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/polyaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/polyline.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/rangesineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/refsystem.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/rotationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/scaleaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/scene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/scenenode.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/sgpath.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/shearaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/sineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/snlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/sphere.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/spotlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/texture.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/time.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/transform.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/transformaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/translationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/uniaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/xmlaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/xmlbase.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/xmljointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/xmlprinter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/source/xmlscene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/sphere.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/spotlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/texture.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/time.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/transform.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/transformaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/translationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/uniaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/vart.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/xmlaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/xmlbase.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/xmljointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/xmlprinter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/keyboard/vart/xmlscene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/main.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/action.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/addresslocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/arrow.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/baseaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/bezier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/biaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/boundingbox.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/box.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/callback.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/camera.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/collector.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/color.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/cone.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/contrib/human.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/contrib/mousecontrol.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/contrib/pnmexporter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/contrib/source/human.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/contrib/source/mousecontrol.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/contrib/source/pnmexporter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/contrib/source/viewerglutogl.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/contrib/viewerglutogl.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/curve.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/cylinder.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/descriptionlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/dmmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/dof.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/dofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/dot.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/file.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/graphicobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/hermiteinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/ikchain.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/interpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/joint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/jointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/jointmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/light.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/linearinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/material.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/memoryobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/mesh.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/meshobject.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/modifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/naturalinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/noisydofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/offsetmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/picknamelocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/point.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/point4d.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/pointlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/polyaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/polyline.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/rangesineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/refsystem.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/rotationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/scaleaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/scene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/scenenode.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/sgpath.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/shearaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/sineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/snlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/snoperator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/action.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/addresslocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/arrow.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/baseaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/bezier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/biaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/boundingbox.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/box.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/camera.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/color.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/cone.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/curve.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/cylinder.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/descriptionlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/dof.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/dofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/dot.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/file.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/graphicobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/hermiteinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/ikchain.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/joint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/jointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/jointmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/light.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/linearinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/material.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/memoryobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/mesh.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/meshobject.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/modifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/naturalinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/noisydofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/offsetmodifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/picknamelocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/point4d.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/pointlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/polyaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/polyline.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/rangesineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/refsystem.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/rotationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/scaleaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/scene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/scenenode.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/sgpath.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/shearaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/sineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/snlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/sphere.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/spotlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/texture.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/time.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/transform.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/transformaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/translationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/uniaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/xmlaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/xmlbase.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/xmljointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/xmlprinter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/source/xmlscene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/sphere.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/spotlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/texture.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/time.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/transform.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/transformaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/translationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/uniaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/vart.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/xmlaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/xmlbase.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/xmljointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/xmlprinter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/objViewer/vart/xmlscene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/main.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/action.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/addresslocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/arrow.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/baseaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/bezier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/biaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/boundingbox.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/box.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/callback.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/camera.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/collector.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/color.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/cone.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/contrib/human.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/contrib/mousecontrol.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/contrib/pnmexporter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/contrib/source/human.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/contrib/source/mousecontrol.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/contrib/source/pnmexporter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/contrib/source/viewerglutogl.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/contrib/viewerglutogl.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/curve.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/cylinder.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/descriptionlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/dmmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/dof.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/dofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/dot.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/file.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/graphicobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/hermiteinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/ikchain.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/interpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/joint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/jointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/jointmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/light.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/linearinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/material.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/memoryobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/mesh.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/meshobject.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/modifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/naturalinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/noisydofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/offsetmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/picknamelocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/point.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/point4d.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/pointlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/polyaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/polyline.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/rangesineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/refsystem.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/rotationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/scaleaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/scene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/scenenode.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/sgpath.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/shearaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/sineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/snlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/snoperator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/action.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/addresslocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/arrow.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/baseaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/bezier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/biaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/boundingbox.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/box.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/camera.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/color.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/cone.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/curve.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/cylinder.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/descriptionlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/dof.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/dofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/dot.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/file.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/graphicobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/hermiteinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/ikchain.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/joint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/jointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/jointmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/light.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/linearinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/material.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/memoryobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/mesh.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/meshobject.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/modifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/naturalinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/noisydofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/offsetmodifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/picknamelocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/point4d.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/pointlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/polyaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/polyline.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/rangesineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/refsystem.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/rotationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/scaleaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/scene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/scenenode.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/sgpath.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/shearaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/sineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/snlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/sphere.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/spotlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/texture.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/time.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/transform.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/transformaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/translationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/uniaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/xmlaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/xmlbase.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/xmljointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/xmlprinter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/source/xmlscene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/sphere.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/spotlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/texture.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/time.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/transform.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/transformaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/translationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/uniaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/vart.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/xmlaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/xmlbase.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/xmljointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/xmlprinter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/picking/vart/xmlscene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/piramide/piramid.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/main.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/action.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/addresslocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/arrow.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/baseaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/bezier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/biaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/boundingbox.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/box.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/callback.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/camera.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/collector.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/color.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/cone.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/contrib/human.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/contrib/mousecontrol.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/contrib/pnmexporter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/contrib/source/human.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/contrib/source/mousecontrol.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/contrib/source/pnmexporter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/contrib/source/viewerglutogl.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/contrib/viewerglutogl.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/curve.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/cylinder.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/descriptionlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/dmmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/dof.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/dofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/dot.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/file.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/graphicobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/hermiteinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/ikchain.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/interpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/joint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/jointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/jointmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/light.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/linearinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/material.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/memoryobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/mesh.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/meshobject.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/modifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/naturalinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/noisydofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/offsetmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/picknamelocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/point.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/point4d.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/pointlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/polyaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/polyline.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/rangesineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/refsystem.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/rotationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/scaleaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/scene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/scenenode.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/sgpath.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/shearaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/sineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/snlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/snoperator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/action.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/addresslocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/arrow.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/baseaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/bezier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/biaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/boundingbox.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/box.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/camera.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/color.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/cone.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/curve.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/cylinder.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/descriptionlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/dof.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/dofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/dot.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/file.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/graphicobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/hermiteinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/ikchain.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/joint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/jointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/jointmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/light.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/linearinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/material.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/memoryobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/mesh.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/meshobject.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/modifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/naturalinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/noisydofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/offsetmodifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/picknamelocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/point4d.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/pointlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/polyaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/polyline.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/rangesineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/refsystem.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/rotationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/scaleaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/scene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/scenenode.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/sgpath.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/shearaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/sineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/snlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/sphere.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/spotlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/texture.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/time.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/transform.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/transformaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/translationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/uniaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/xmlaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/xmlbase.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/xmljointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/xmlprinter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/source/xmlscene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/sphere.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/spotlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/texture.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/time.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/transform.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/transformaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/translationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/uniaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/vart.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/xmlaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/xmlbase.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/xmljointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/xmlprinter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/textureExample/vart/xmlscene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/main.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/action.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/addresslocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/arrow.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/baseaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/bezier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/biaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/boundingbox.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/box.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/callback.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/camera.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/collector.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/color.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/cone.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/contrib/human.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/contrib/mousecontrol.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/contrib/pnmexporter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/contrib/source/human.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/contrib/source/mousecontrol.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/contrib/source/pnmexporter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/contrib/source/viewerglutogl.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/contrib/viewerglutogl.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/curve.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/cylinder.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/descriptionlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/dmmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/dof.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/dofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/dot.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/file.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/graphicobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/hermiteinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/ikchain.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/interpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/joint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/jointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/jointmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/light.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/linearinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/material.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/memoryobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/mesh.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/meshobject.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/modifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/naturalinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/noisydofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/offsetmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/picknamelocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/point.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/point4d.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/pointlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/polyaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/polyline.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/rangesineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/refsystem.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/rotationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/scaleaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/scene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/scenenode.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/sgpath.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/shearaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/sineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/snlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/snoperator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/action.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/addresslocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/arrow.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/baseaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/bezier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/biaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/boundingbox.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/box.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/camera.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/color.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/cone.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/curve.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/cylinder.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/descriptionlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/dof.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/dofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/dot.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/file.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/graphicobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/hermiteinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/ikchain.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/joint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/jointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/jointmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/light.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/linearinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/material.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/memoryobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/mesh.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/meshobject.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/modifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/naturalinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/noisydofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/offsetmodifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/picknamelocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/point4d.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/pointlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/polyaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/polyline.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/rangesineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/refsystem.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/rotationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/scaleaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/scene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/scenenode.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/sgpath.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/shearaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/sineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/snlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/sphere.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/spotlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/texture.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/time.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/transform.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/transformaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/translationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/uniaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/xmlaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/xmlbase.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/xmljointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/xmlprinter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/source/xmlscene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/sphere.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/spotlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/texture.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/time.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/transform.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/transformaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/translationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/uniaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/vart.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/xmlaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/xmlbase.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/xmljointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/xmlprinter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/transform-action/vart/xmlscene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/main.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/action.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/addresslocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/arrow.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/baseaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/bezier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/biaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/boundingbox.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/box.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/callback.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/camera.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/collector.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/color.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/cone.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/contrib/human.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/contrib/mousecontrol.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/contrib/pnmexporter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/contrib/source/human.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/contrib/source/mousecontrol.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/contrib/source/pnmexporter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/contrib/source/viewerglutogl.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/contrib/viewerglutogl.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/curve.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/cylinder.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/descriptionlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/dmmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/dof.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/dofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/dot.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/file.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/graphicobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/hermiteinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/ikchain.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/interpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/joint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/jointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/jointmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/light.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/linearinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/material.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/memoryobj.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/mesh.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/meshobject.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/modifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/naturalinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/noisydofmover.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/offsetmodifier.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/picknamelocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/point.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/point4d.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/pointlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/polyaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/polyline.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/rangesineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/refsystem.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/rotationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/scaleaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/scene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/scenenode.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/sgpath.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/shearaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/sineinterpolator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/snlocator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/snoperator.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/action.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/addresslocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/arrow.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/baseaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/bezier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/biaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/boundingbox.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/box.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/camera.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/color.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/cone.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/curve.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/cylinder.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/descriptionlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/dof.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/dofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/dot.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/file.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/graphicobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/hermiteinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/ikchain.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/joint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/jointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/jointmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/light.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/linearinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/material.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/memoryobj.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/mesh.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/meshobject.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/modifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/naturalinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/noisydofmover.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/offsetmodifier.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/picknamelocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/point4d.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/pointlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/polyaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/polyline.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/rangesineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/refsystem.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/rotationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/scaleaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/scene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/scenenode.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/sgpath.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/shearaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/sineinterpolator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/snlocator.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/sphere.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/spotlight.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/texture.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/time.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/transform.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/transformaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/translationaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/uniaxialjoint.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/xmlaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/xmlbase.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/xmljointaction.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/xmlprinter.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/source/xmlscene.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/sphere.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/spotlight.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/texture.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/time.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/transform.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/transformaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/translationaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/uniaxialjoint.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/vart.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/xmlaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/xmlbase.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/xmljointaction.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/xmlprinter.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vart/xmlscene.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vigilancecamera.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/vigilanceCamera/vigilancecamera.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/augusto/CG/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
