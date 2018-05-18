@@ -17,7 +17,9 @@
 #include <vart/contrib/viewerglutogl.h>
 #include <vart/meshobject.h>
 
-
+#include <fstream>
+#include <string>
+#include <list>
 #include <iostream>
 
 using namespace std;
@@ -116,6 +118,35 @@ class MyIHClass : public VART::ViewerGlutOGL::IdleHandler
 // The application itself:
 int main(int argc, char* argv[])
 {
+
+    ifstream file(argv[1]);
+    string str;
+    int nver;
+    getline(file,str);
+    nver = stoi(str);
+    string ver[nver];
+
+    for (int i = 0; i<nver;++i){
+        getline(file,str);
+        ver[i] = str;
+    }
+
+    list<string> faces;
+    int nfaces = 0;
+
+    while(getline(file,str)){
+        faces.push_back(str);
+        nfaces++;
+    }
+
+    string vertices = "";
+
+    for (int i = 0; i<nver; ++i){
+        vertices += ver[i];
+        if(i!=nver-1)
+            vertices+=", ";
+    }
+
     ViewerGlutOGL::Init(&argc, argv); // Initialize GLUT
     static Scene scene; // create a scene
     static ViewerGlutOGL viewer; // create a viewer (application window)
@@ -123,20 +154,13 @@ int main(int argc, char* argv[])
     // create a camera (scene observer)
     Camera camera(Point4D(0,0,5,1), Point4D(0,0,0,1), Point4D(0,1,0,0));
 
-    VART::MeshObject piramide;
-    
-						  // Vértices
-						 // 0      1      2       3      4           
-    piramide.SetVertices("0 0 2, 2 0 0, 0 2 0, -2 0 0, 0 -2 0");
-    
-    // Faces
-    piramide.AddFace("0 1 2");
-    piramide.AddFace("0 2 3");
-    piramide.AddFace("0 3 4");
-    piramide.AddFace("0 4 1");
-    piramide.AddFace("4 3 2 1"); //base
-    
-    piramide.SetMaterial(VART::Material::PLASTIC_BLUE());
+    VART::MeshObject piramide;          
+    piramide.SetVertices(vertices.c_str());
+    for (auto v : faces){
+        piramide.AddFace(v.c_str());
+    }
+
+    piramide.SetMaterial(VART::Material::PLASTIC_RED());
 	//scene.AddObject(&piramide);
 
     // Build up the scene
